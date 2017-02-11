@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" href="../img/favicon.ico">
+	<title>navbar</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="../css/bootstrap-theme.min.css"> -->
+	<style>
+		.container{
+			padding: 200px;
+		}
+		.input-group{
+			margin: 5px 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="input-group input-group-lg">
+			<input type="text" class="form-control" placeholder="email">
+			<span class="input-group-addon">@qq.com</span>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="email">
+			<span class="input-group-addon">@qq.com</span>
+		</div>
+
+		<div class="input-group input-group-sm">
+			<input type="text" class="form-control" placeholder="email">
+			<span class="input-group-addon">@qq.com</span>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="username">
+			<span class="input-group-addon">
+				<input type="radio">
+			</span>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="username">
+			<span class="input-group-addon">
+				<input type="checkbox">
+			</span>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="username">
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-warning">Go!</button>
+			</span>
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="username">
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">webpack</a></li>
+					<li><a href="#">angularjs</a></li>
+					<li><a href="#">reactjs</a></li>
+				</ul>
+			</span>
+		</div>
+	</div>
+
+	<script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
